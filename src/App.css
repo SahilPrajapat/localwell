@@ -22,6 +22,7 @@ body {
         padding: 24px;
         border-top-left-radius: 16px;
         border-bottom-left-radius: 16px;
+        min-width: 260px;
 
         .top {
           h2 {
@@ -38,7 +39,7 @@ body {
             font-weight: 400;
             color: #757575;
             margin: 0;
-            padding-top: 16px;
+            padding-top: 10px;
           }
         }
 
@@ -46,10 +47,11 @@ body {
           p {
             font-size: 13px;
             line-height: 100%;
-            font-weight: 400;
+            font-weight: 600;
             color: #000;
             padding-top: 24px;
             padding-bottom: 16px;
+            margin: 0;
           }
 
           .business {

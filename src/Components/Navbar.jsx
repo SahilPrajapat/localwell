@@ -7,7 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 function Navbar() {
   const [paths, setPaths] = useState(window.location.href.split("/")[3] || "");
   useEffect(() => {
-    setPaths(window.location.href.split("/")[3] || "");
+    setPaths(window.location.href.split("/")[3] || "Purchases");
   }, []);
 
   function handleclick(event, path) {
