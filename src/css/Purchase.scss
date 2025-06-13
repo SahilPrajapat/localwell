@@ -1,0 +1,113 @@
+.account-manager-card {
+  // max-width: 400px;
+  background: #fff;
+  color: #333;
+
+  .title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .subtitle {
+    font-size: 0.875rem;
+    color: #777;
+    margin-bottom: 1rem;
+  }
+
+  .badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .profile {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .name {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    .role {
+      font-size: 0.875rem;
+      color: #666;
+    }
+  }
+
+  .greeting {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .hint {
+    font-size: 0.875rem;
+    color: #888;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .language,
+  .availability {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .email {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+    font-size: 0.875rem;
+
+    .icon {
+      color: #6b21a8;
+    }
+
+    a {
+      color: #6b21a8;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .call-button {
+    background-color: #6b21a8;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    &:hover {
+      background-color: #581c87;
+    }
+
+    .icon {
+      color: white;
+    }
+  }
+}
